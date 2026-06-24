@@ -21,6 +21,9 @@
 # RStudio files
 .Rproj.user/
 
+# VS Code files
+.vscode/
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
