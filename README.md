@@ -1,3 +1,13 @@
+<p align="center">
+
+<img src="images/Horse_Show_TrackR.png" width="250"/>
+
+</p>
+
+# HorseShowTrackR
+
+Track horse show standings, qualifications, and year-end award eligibility using ShowPro export data.
+
 ## Why I Built This
 
 I've been involved with horse show organizations for more than 15 years, serving in a variety of leadership and volunteer roles. One challenge that seems to come up every year is tracking exhibitor eligibility for year-end awards.
