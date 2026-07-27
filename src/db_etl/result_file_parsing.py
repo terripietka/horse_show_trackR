@@ -1,11 +1,10 @@
 # ---------------------- Imports ---------------------- #
-import sqlite3
 import csv
-from pathlib import Path
 import re
+import sqlite3
+from pathlib import Path
 
 # ---------------------- Configurable Settings ---------------------- #
-<<<<<<< HEAD
 db_path = Path("C:/Users/Terri/Documents/github_projects/MoRHA_2025/DB/morha_120125.db")
 csv_file = Path("C:/Users/Terri/Documents/github_projects/MoRHA_2025/data/generic_results_jonathan carpenter.csv")
 
@@ -14,16 +13,6 @@ show_date = "2025-11-14"
 show_location = "LSL, MO"
 judge_name = "Carpenter"
 show_index = 4
-=======
-db_path = Path("C:/Users/Terri/Documents/github_projects/ILRHA_Points_2025/DB/ilrha2025v0428.db")
-csv_file = Path("C:/Users/Terri/Documents/github_projects/ILRHA_Points_2025/data/generic_results_butch watson_march.csv")
-
-show_name = "March"
-show_date = "2025-03-21"
-show_location = "Gifford, IL"
-judge_name = "Watson"
-show_index = 1
->>>>>>> d070d812b221131bd76768ae6615151486d39468
 judge_index = 4
 judge_id = show_index * 10 + judge_index
 
