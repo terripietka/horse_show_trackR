@@ -1,10 +1,7 @@
 import sqlite3
 # Connect to SQLite database
-<<<<<<< HEAD
-conn = sqlite3.connect(r'C:/Users/Terri/Documents/github_projects/MoRHA_2025/DB/morha_120125.db')
-=======
-conn = sqlite3.connect(r'C:/Users/Terri/Documents/github_projects/ILRHA_Points_2025/DB/ilrha2025v0428.db')
->>>>>>> d070d812b221131bd76768ae6615151486d39468
+
+conn = sqlite3.connect(r'C:/Users/Terri/Documents/github_projects/horse_show_trackR/db/morha_2026.db')
 cursor = conn.cursor()
 
 # --------------------- Create Tables --------------------- #

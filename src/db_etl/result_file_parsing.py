@@ -5,15 +5,15 @@ import sqlite3
 from pathlib import Path
 
 # ---------------------- Configurable Settings ---------------------- #
-db_path = Path("C:/Users/Terri/Documents/github_projects/MoRHA_2025/DB/morha_120125.db")
-csv_file = Path("C:/Users/Terri/Documents/github_projects/MoRHA_2025/data/generic_results_jonathan carpenter.csv")
+db_path = Path("C:/Users/Terri/Documents/github_projects/horse_show_trackR/db/morha_2026.db")
+csv_file = Path("C:/Users/Terri/Documents/github_projects/horse_show_trackR/data/may_generic_results_pete mcalister.csv")
 
-show_name = "August"
-show_date = "2025-11-14"
-show_location = "LSL, MO"
-judge_name = "Carpenter"
-show_index = 4
-judge_index = 4
+show_name = "May"
+show_date = "2026-05-15"
+show_location = "Carthage, MO"
+judge_name = "Northcutt"
+show_index = 2
+judge_index = 1
 judge_id = show_index * 10 + judge_index
 
 # ID generation trackers
